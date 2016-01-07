@@ -1,2 +1,4 @@
 # docker-dd-agent-build
-project used with circleci to build the agent
+Project used with circleci to build the Datadog Agent (https://github.com/DataDog/dd-agent).
+
+The Datadog Agent is built using a Chef omnibus project (https://github.com/DataDog/dd-agent-omnibus) on CircleCi.
