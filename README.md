@@ -1,2 +1,2 @@
-# docker-dd-agent-build
-project used with circleci to build the agent
+# dd-agent-integrations-build
+Project used with circleci to build the Datadog Agent Integrations
