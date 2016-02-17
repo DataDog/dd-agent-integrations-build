@@ -12,8 +12,6 @@ general:
 dependencies:
   pre:
     - ./pre.sh
-  cache_directories:
-    - "~/cache"
   post:
     - ./post.sh
 
