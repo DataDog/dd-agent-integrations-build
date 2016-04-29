@@ -1,0 +1,22 @@
+machine:
+  services:
+    - docker
+
+general:
+  branches:
+    ignore:
+      - /.*/
+  artifacts:
+    - "pkg"
+
+dependencies:
+  pre:
+    - ./pre.sh
+  post:
+    - ./post.sh
+
+
+test:
+  override:
+    - mkdir -p pkg
+    - cp ~/pkg/* pkg/
