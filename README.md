@@ -2,8 +2,7 @@
 Project used with CircleCI to build the Datadog Agent Integrations.
 
 Builds are run in docker containers that use the same images as the Agent builds, i.e.:
-* https://github.com/DataDog/docker-dd-agent-build-deb-i386
-* https://github.com/DataDog/docker-dd-agent-build-rpm-i386
+
 * https://github.com/DataDog/docker-dd-agent-build-deb-x64
 * https://github.com/DataDog/docker-dd-agent-build-rpm-x64
 
